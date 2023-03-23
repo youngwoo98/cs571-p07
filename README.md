@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10610484&assignment_repo_type=AssignmentRepo)
 # CS571-S23 HW07: Intro to React Native
 
 Welcome to React Native! For this brief assignment, you will complete a mobile application that will introduce you to the basics of React Native. Your app will allow the user to type and add up numbers. **Make sure you allow enough time for your video to upload as a part of your submission**.
