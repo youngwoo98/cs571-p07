@@ -6,18 +6,23 @@ import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 export default function App() {
 
   const [sum, setSum] = useState(0);
-  const [input, setInput] = useState(0);
+  const [input, setInput] = useState("");
   
 
 
   function addVal() {
-    setSum(prev => prev + parseFloat(input))
-    setInput(0)
+    if(input !== ""){
+      setSum(prev => prev + parseFloat(input))
+      setInput("")
+    }
+    else{
+      setInput("")
+    }
   }
 
   function resetSum() {
     setSum(0);
-    setInput(0)
+    setInput("")
   }
 
   return (
